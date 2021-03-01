@@ -14,7 +14,7 @@
     </div>
 </div>
 
-<!-- Pour n'a afficher les voitures s'ils n'existent pas -->
+<!-- Affichage de la liste des véhicules liés à un Mécanicien -->
 @if(count($voitures)) 
 <div class="card text-white bg-secondary mb-3">
     <div class="card-header">Véhicules</div>
